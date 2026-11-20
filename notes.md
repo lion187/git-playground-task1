@@ -1,0 +1,2 @@
+Changed: store.js now refuses to overwrite a corrupt file, saves via temp file + rename, keeps notes in ~/.local/share/notes (NOTES_DIR override), migrates old notes and adds update/get/clear/search; notes.js gained edit, done/undone, tag, search, clear, list filters (--done/--open/--tag/--json), aliases, help, piped input, proper exit codes, and fixes for dash-prefixed arguments and the stdin hang.
+Prediction: I think I added a tag-formatting helper, renamed a tag variable, changed the empty-list message, and adjusted the session timeout.
